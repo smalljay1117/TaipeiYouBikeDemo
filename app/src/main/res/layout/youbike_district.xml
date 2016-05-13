@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/youbike">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_100"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="中正區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_103"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="大同區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_104"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="中山區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_105"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="松山區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_106"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="大安區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_108"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="萬華區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_110"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="信義區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_111"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="士林區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_112"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="北投區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_114"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="內湖區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_115"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="南港區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btn_116"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="文山區"
+                android:textSize="25sp"
+                android:onClick="onClick"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
