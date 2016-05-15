@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 import com.example.smalljay1117.taipeiyoubikedemo.util.JSONUtility;
 import com.example.smalljay1117.taipeiyoubikedemo.util.TaipeiYoubikeUtil;
@@ -15,11 +16,15 @@ public class MainActivity extends AppCompatActivity {
 
     private TaipeiYoubikeTask taipeiYoubikeTask;
     private ProgressDialog progressDialog;
+    private View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        view = findViewById(R.id.youbike);
+        view.getBackground().setAlpha(50);
 
         if (taipeiYoubikeTask != null) {
             taipeiYoubikeTask.cancel(true);

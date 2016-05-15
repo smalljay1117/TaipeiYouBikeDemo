@@ -3,8 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/youbike"
     tools:context="com.example.smalljay1117.taipeiyoubikedemo.MainActivity">
 
+    <View
+        android:id="@+id/youbike"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/youbike"/>
 
 </LinearLayout>
